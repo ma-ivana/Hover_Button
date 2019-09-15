@@ -1,0 +1,42 @@
+.greater {
+  background-color: teal;
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -175px;
+  text-align: center;
+}
+
+.smaller {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  top: 50%;
+  margin-top: -25px;
+  box-shadow: 12px 12px 5px purple;
+  transition: all 1s;
+}
+
+.smaller:hover {
+  background-color: purple;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: bolder;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  top: 50%;
+  margin-top: -25px;
+  box-shadow: -12px -12px 5px white;
+}
